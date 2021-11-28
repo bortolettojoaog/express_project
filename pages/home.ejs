@@ -19,6 +19,7 @@
                 <table>
                     <thead>
                         <tr>
+                            <th>ID</th>
                             <th>Make</th>
                             <th>Model</th>
                             <th>Price</th>
@@ -30,6 +31,7 @@
                     <tbody>
                         <% for(let i = 0; i < data.length; i++) { %>
                             <tr>
+                                <td><p><%= data[i].id %></p></td>
                                 <td><p><%= data[i].make %></p></td>
                                 <td><p><%= data[i].model %></p></td>
                                 <td><p><%= data[i].price %></p></td>
