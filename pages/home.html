@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Cars</title>
+        <link href="/public/style.css" rel="stylesheet" />
+
+        <!--Icon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="public/assets/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="public/assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="public/assets/icons/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!--Icon-->
+    </head>
+
+    <body>
+        <div class="cars">
+            <div class="container">
+                <h2>Car list</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Make</th>
+                            <th>Model</th>
+                            <th>Price</th>
+                            <th>Year</th>
+                            <th>#</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <% for(let i = 0; i < data.length; i++) { %>
+                            <tr>
+                                <td><p><%= data[i].make %></p></td>
+                                <td><p><%= data[i].model %></p></td>
+                                <td><p><%= data[i].price %></p></td>
+                                <td><p><%= data[i].year %></p></td>
+                                <td><a href="/cars/<%= data[i].slug %>">Saiba Mais</a></td>
+                            </tr>
+                        <% } %>
+                    </tbody>
+                </table>
+            </div><!--container-->
+        </div><!--cars-->
+    </body>
+</html>
