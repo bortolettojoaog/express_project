@@ -18,6 +18,10 @@ body { background-color: white; }
     padding: 0 2%;
 }
 
+.clear {
+    clear: both;
+}
+
 .cars {
     text-align: center;
 }
@@ -78,6 +82,18 @@ table tr td a, .cars-single a {
 .cars-single-text h2 {
     border-bottom: none;
     max-width: 100%;
+}
+
+.cars-single-text .info {
+    padding-bottom: 8px;
+}
+
+.info .left {
+    float: left;
+}
+
+.info .right {
+    float: right;
 }
 
 .cars-single-text p {
