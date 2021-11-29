@@ -14,7 +14,7 @@ var cars = [
         make: "Audi",
         model: "a4",
         price: "41100.0",
-        year: "2016",
+        year: "2021",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec efficitur sapien. Praesent id viverra nisl, sed varius magna. Suspendisse vel enim et nisi eleifend vehicula at rutrum ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris varius sem at neque ultricies, ut ornare neque accumsan.",
         slug: "audi-a4-2016"
     },
@@ -23,7 +23,7 @@ var cars = [
         make: "Mercedes Benz",
         model: "metris",
         price: "32500.0",
-        year: "2016",
+        year: "2020",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec efficitur sapien. Praesent id viverra nisl, sed varius magna. Suspendisse vel enim et nisi eleifend vehicula at rutrum ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris varius sem at neque ultricies, ut ornare neque accumsan.",
         slug: "mercedes-metris-2016"
     },
@@ -32,7 +32,7 @@ var cars = [
         make: "Volkswagen",
         model: "golf-gti",
         price: "29125.0",
-        year: "2016",
+        year: "2017",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec efficitur sapien. Praesent id viverra nisl, sed varius magna. Suspendisse vel enim et nisi eleifend vehicula at rutrum ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris varius sem at neque ultricies, ut ornare neque accumsan.",
         slug: "volkswagen-golf_gti-2016"
     },

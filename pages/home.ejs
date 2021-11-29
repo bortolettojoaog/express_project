@@ -41,6 +41,32 @@
                         <% } %>
                     </tbody>
                 </table>
+
+                <h2 class="second">Recent cars</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Make</th>
+                            <th>Model</th>
+                            <th>Price</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <% for(let i = 0; i < data.length; i++) { %>
+                            <% if (data[i].year >= 2019) { %>
+                                <tr>
+                                    <td><p><%= data[i].make %></p></td>
+                                    <td><p><%= data[i].model %></p></td>
+                                    <td><p><%= data[i].price %></p></td>
+                                    <td><p><%= data[i].year %></p></td>
+                                </tr>
+                            <% } %>
+                        <% } %>
+                    </tbody>
+                </table>
             </div><!--container-->
         </div><!--cars-->
     </body>

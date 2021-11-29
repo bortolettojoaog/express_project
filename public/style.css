@@ -33,7 +33,7 @@ body { background-color: white; }
     border-bottom: 3px solid rgb(21, 12, 63);
     padding-bottom: 3px;
     display: block;
-    max-width: 300px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -106,4 +106,8 @@ table tr td a, .cars-single a {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
+}
+
+.second {
+    padding-top: 60px;
 }
