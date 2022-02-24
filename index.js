@@ -75,5 +75,5 @@ app.get("*", (req, res) => {
 })
 
 app.listen(3000, () => {
-    console.log('Servidor rodando perfeitamente!');
+    console.log('Server Running! IP: http://localhost:3000');
 });
