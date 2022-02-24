@@ -43,7 +43,7 @@ You need to have the following tools installed on your machine: [Git](https://gi
 
 ```bash
 # Clone this repository
-$ git clone <https://github.com/bortolettojoaog/typescript.git>
+$ git clone <https://github.com/bortolettojoaog/express_project.git>
 
 # Access the project folder through terminal/cmd
 $ cd typescript
